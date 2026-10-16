@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "gemwerk_io"
+version = "0.1.0"
+name = "GemWerk (Men of War models)"
+tagline = "Import, edit and export Men of War GEM models and animations"
+maintainer = "vsevoloden"
+type = "add-on"
+
+website = "https://github.com/vsevoloden/gemwerk_io"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Import-Export", "Animation"]
+
+[permissions]
+files = "Read and write .mdl, .ply, .vol, .anm, .mtl and texture files"
